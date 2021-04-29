@@ -7,7 +7,6 @@ const SECRET = process.env.SECRET_KEY
 const app = express();
 const PORT = process.env.PORT || 8000;
 
-
 //database and middleware
 app.use(express.json())
 app.use((req, res, next) => {
