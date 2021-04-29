@@ -1,0 +1,20 @@
+{
+  "name": "hw-w09d04-bookmarks-pt-1",
+  "version": "0.0.1",
+  "description": "GA class hw",
+  "main": "server.js",
+  "repository": "https://git.generalassemb.ly/duhnlic/hw-w09d04-bookmarks-pt-1.git",
+  "author": "duhnlic <bpstew22@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.7"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  }
+}
